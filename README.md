@@ -71,11 +71,17 @@ chmod 755 kind.sh
 
 echo "127.0.0.1 kubernetes.docker.internal" | sudo tee -a /etc/hosts
 
-
-
-
 ### installing the Control Plane
 
+
+change directory
 ```
-git clone git@github.com:orb-community/orb.git
+cd orb
 ```
+```
+make prepare-helm
+```
+```
+make run
+```
+
