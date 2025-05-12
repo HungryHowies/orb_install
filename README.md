@@ -7,7 +7,6 @@ Ubuntu 22.0.4
 sudo apt update && apt upgrade
 ```
 ```
-
 sudo timedatectl set-timezone America/Chicago
 ```
 ```
