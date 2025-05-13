@@ -129,7 +129,7 @@ make kind-load-images
 ```
 make kind-install-orb
 ```
-If you have any problem to load your new deployment use:
+NOTE: Load new deployment
 ```
 kubectl rollout restart deployment -n orb
 ```
