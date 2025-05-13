@@ -129,13 +129,18 @@ make kind-load-images
 ```
 make kind-install-orb
 ```
-NOTE: Load new deployment
+Takes about 5 minutes to  access Web UI.
+
+NOTE: To correct install issues.
+
 ```
 kubectl rollout restart deployment -n orb
 ```
 
 ### ISSUES
-ERROR  image orb community/orb-ui:developer not present locally
+
+ERROR image orb community/orb-ui:developer not present locally.
+
 FIX
 ```
 docker pull orbcommunity/orb-ui:develop
