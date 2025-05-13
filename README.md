@@ -134,3 +134,13 @@ NOTE: Load new deployment
 kubectl rollout restart deployment -n orb
 ```
 
+### ISSUES
+ERROR  image orb community/orb-ui:developer not present locally
+FIX
+```
+docker pull orbcommunity/orb-ui:develop
+```
+```
+kind load docker-image orbcommunity/orb-ui:develop
+```
+
