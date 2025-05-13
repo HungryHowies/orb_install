@@ -115,9 +115,22 @@ change directory
 cd orb
 ```
 ```
+make kind-create-cluster
+```
+```
 make prepare-helm
 ```
 ```
-make run
+make dockers
+```
+```
+make kind-load-images
+```
+```
+make kind-install-orb
+```
+If you have any problem to load your new deployment use:
+```
+kubectl rollout restart deployment -n orb
 ```
 
