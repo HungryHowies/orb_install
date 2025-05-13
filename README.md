@@ -12,16 +12,7 @@ sudo timedatectl set-timezone America/Chicago
 ```
 sudo apt install net-tools plocate vim git sendmail
 ```
-### GO Install
-```
-sudo add-apt-repository ppa:longsleep/golang-backports
-```
-```
-sudo apt update
-```
-```
-sudo apt install golang-go
-```
+
 ### Docker
 
 Add Docker's official GPG key:
