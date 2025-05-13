@@ -104,7 +104,7 @@ echo "127.0.0.1 kubernetes.docker.internal" | sudo tee -a /etc/hosts
 
 change directory
 ```
-cd /usr/local/bin/
+cd /opt/
 ```
 Download
 ```
