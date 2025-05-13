@@ -12,11 +12,20 @@ sudo timedatectl set-timezone America/Chicago
 ```
 sudo apt install net-tools plocate vim git sendmail
 ```
-## Docker
-# Add Docker's official GPG key:
+### GO Install
 ```
-sudo apt-get update
+sudo add-apt-repository ppa:longsleep/golang-backports
 ```
+```
+sudo apt update
+```
+```
+sudo apt install golang-go
+```
+### Docker
+
+Add Docker's official GPG key:
+
 ```
 sudo apt-get install ca-certificates curl
 ```
@@ -29,8 +38,11 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 ```
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
+```
+sudo apt update
+```
 
-# Add the repository to Apt sources:
+Add the repository to Apt sources:
 ```
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
