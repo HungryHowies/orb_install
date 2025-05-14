@@ -2,7 +2,7 @@
 
 Ubuntu 22.0.4
 
-2 CPU , 4GB memory, 80 DRIVE
+4 CPU , 4GB memory, 80 DRIVE
 ```
 sudo apt update && apt upgrade
 ```
