@@ -1,6 +1,6 @@
 # orb_install
 
-Ubuntu 22.0.4
+Ubuntu 22.0.4 Ubuntu minimal installation
 
 4 CPU , 4GB memory, 80 DRIVE
 ```
