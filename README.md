@@ -136,6 +136,19 @@ NOTE: To correct install issues.
 ```
 kubectl rollout restart deployment -n orb
 ```
+### Adding service to ORB fleet
+```
+docker pull jaegertracing/all-in-one:latest
+```
+```
+kind load docker-image jaegertracing/all-in-one:latest
+```
+```
+kubectl rollout restart deployment -n orb
+```
+```
+kubectl get pods -n orb
+```
 
 ### ISSUES
 
