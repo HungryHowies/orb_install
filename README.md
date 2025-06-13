@@ -66,6 +66,10 @@ sudo apt install helm
 
 ### Kubectl
  This overwrites any existing configuration in /etc/apt/sources.list.d/kubernetes.list
+
+```
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+```
 ``` 
 echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.33/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
 ```
