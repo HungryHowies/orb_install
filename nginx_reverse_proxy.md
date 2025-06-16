@@ -1,7 +1,7 @@
 ### Nginx configuration
 * Ningix is on 192.168.1.100
 * Documenso is on 192.168.1.200
-
+* Latest version of Documenso 1.11.0
 Create self-signed certificates for Nginx.
 ```
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/netbox.key -out /etc/ssl/certs/netbox.crt
