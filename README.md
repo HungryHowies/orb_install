@@ -169,7 +169,17 @@ make kind-install-orb
 ```
 Takes about 5 minutes to  access Web UI.
 
-NOTE: To correct install issues.
+NOTE: If a issue occrurs execute the following.
+
+```
+kubectl get ns orb
+```
+If you see the namespace then  execute the following.
+
+```
+helm upgrade --install orb /opt/orb/kind -n orb
+```
+NOTE: (Optional) To correct install issues.
 
 ```
 kubectl rollout restart deployment -n orb
