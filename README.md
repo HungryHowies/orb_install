@@ -130,6 +130,20 @@ change directory
 ```
 cd orb
 ```
+If ORB is on the same server as Netbox/Diode chnage port mapping
+```
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+  extraPortMappings:
+  - containerPort: 80
+    hostPort: 8080  # <- change this
+  - containerPort: 443
+    hostPort: 8443  # <- change this
+  - containerPort: 8883
+    hostPort: 8883
+```
 ```
 make kind-create-cluster
 ```
