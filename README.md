@@ -63,7 +63,15 @@ sudo apt update
 ```
 sudo apt install helm
 ```
-
+```
+helm repo add bitnami https://charts.bitnami.com/bitnami
+```
+```
+helm repo update
+```
+```
+helm dependency update
+```
 ### Kubectl
  This overwrites any existing configuration in /etc/apt/sources.list.d/kubernetes.list
  
