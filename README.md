@@ -138,7 +138,7 @@ nodes:
 - role: control-plane
   extraPortMappings:
   - containerPort: 80
-    hostPort: 8080  # <- change this
+    hostPort: 8090  # <- change this
   - containerPort: 443
     hostPort: 8443  # <- change this
   - containerPort: 8883
