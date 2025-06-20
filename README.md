@@ -158,6 +158,7 @@ make kind-create-cluster
 ```
 make prepare-helm
 ```
+Not sure if i need this command. manually create Docker containers for kind nodes — kind handles that.
 ```
 make dockers
 ```
